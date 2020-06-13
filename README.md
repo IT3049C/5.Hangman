@@ -1,4 +1,4 @@
-Assignment Name
+Hangman
 =====================
 ![Assignment Checks](https://github.com/IT3049C/Assignment-Template/workflows/Assignment%20Checks/badge.svg)
 
