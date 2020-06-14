@@ -1,19 +1,19 @@
 // START + DIFFICULTY SELECTION
-const startWrapper = document.getElementById("startWrapper");
+const startWrapper = document.getElementById(`startWrapper`);
 const difficultySelectForm = document.getElementById(`difficultySelect`);
-const difficultySelect = document.getElementById("difficulty");
+const difficultySelect = document.getElementById(`difficulty`);
 
 // GAME
-const gameWrapper = document.getElementById("gameWrapper");
-const guessesText = document.getElementById("guesses");
-const wordHolderText = document.getElementById("wordHolder");
+const gameWrapper = document.getElementById(`gameWrapper`);
+const guessesText = document.getElementById(`guesses`);
+const wordHolderText = document.getElementById(`wordHolder`);
 
 // GUESSING FORM
-const guessForm = document.getElementById("guessForm");
-const guessInput = document.getElementById("guessInput");
+const guessForm = document.getElementById(`guessForm`);
+const guessInput = document.getElementById(`guessInput`);
 
 // GAME RESET BUTTON
-const resetGame = document.getElementById("resetGame");
+const resetGame = document.getElementById(`resetGame`);
 
 // CANVAS
 let canvas = document.getElementById(`hangmanCanvas`);
