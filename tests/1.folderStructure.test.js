@@ -9,20 +9,22 @@ describe(`folder structure`, function () {
     expect(nodes).toContain(`resources`);
     expect(nodes).toContain(`index.html`);
     const expectedNodes = [
-      `.git`,
-      `.github`,
-      `.vscode`,
-      `resources`,
-      `tests`,
-      `.gitignore`,
       `.babelrc`,
       `.eslintrc.json`,
+      `.git`,
       `.gitignore`,
-      `.prettierrc`,
-      `jest.config.js`,
-      `index.html`,
-      `package.json`,
+      `.scripts`,
+      `.vscode`,
       `README.md`,
+      `index.html`,
+      `jest.config.js`,
+      `node_modules`,
+      `package-lock.json`,
+      `package.json`,
+      `.prettierignore`,
+      `.prettierrc`,
+      `resources`,
+      `tests`,
     ];
     expect(nodes).toEqual(expect.arrayContaining(expectedNodes));
   });
